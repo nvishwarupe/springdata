@@ -1,0 +1,23 @@
+Working Elastic search Spring Data example with REST endpoints created to talk with elastic search
+________________________________________________
+
+No need to start elastic server it is embeded;
+There is youtube video training for this example
+shard is shared data partition
+
+
+
+mvn clean install
+
+java -jar target/name of the jar
+
+go to postman and run following get commands
+
+http://localhost:8080/rest/search/name/ajay
+
+http://localhost:8080/rest/search/all
+
+http://localhost:8080/rest/search/name/jaga
+
+
+http://localhost:8080/rest/search/salary/12000
